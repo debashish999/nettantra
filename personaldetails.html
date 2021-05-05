@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>personal details</title>
+	<link rel="stylesheet" type="text/css" href="css/personal.css">
+	 <meta name='viewport' content='width=device-width, initial-scale=1'>
+        
+       <script src="https://kit.fontawesome.com/65ace80df2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav id="navbar">
+		<ul>
+			<li>
+				<a href="">Home</a></li>
+				<li><a href="logout.php">Logout</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Personal Details</h1>
+	</header>
+	<div>
+		
+		<p>Please fill this details</p>
+
+		<hr>
+	</div>
+	<div class="container">
+		 <div class="imgcontainer">
+   	 <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+  			</div>
+  			<form>
+	<div id="container">
+
+		<div>
+			<i class="fa fa-user" style="font-size:24px"></i>
+			 <input type="text" id="fathername" name="fathername" placeholder="Father's name" required>
+		</div>
+		<div>
+			<i class="fa fa-user" style="font-size:24px"></i>
+		 <input type="text" id="mothername" name="mothername" placeholder="Mother's name" required></div>
+
+		 <div>
+		 	<i class="fa fa-mobile" style="font-size:24px"></i>
+		<input type="tel" id="fatherphone" name="fatherphone" pattern="[0-9]{10}" placeholder="Father's Phone" required>
+		</div>
+
+		<div>
+			<i class="fa fa-mobile" style="font-size:24px"></i>
+		  <input type="tel"  id="motherphone" name="motherphone" pattern="[0-9]{10}" placeholder="Mother's Phone" required>
+		</div>
+		<div>
+			<i class="fa fa-address-book" style="font-size:24px"></i>
+		  <textarea form="personaldetail" name="presentaddress" id="preid" cols="100"  placeholder="Present Address" required></textarea>
+		</div>
+		<div>
+			<i class="fa fa-address-book" style="font-size:24px"></i>
+		 <textarea form="personaldetail" name="permanentaddress" id="perid" cols="100" placeholder="Permanent Address" required></textarea>
+		</div>
+		   <button type="submit">Submit</button>
+
+	</div>
+</form>
+
+</body>
+</html>

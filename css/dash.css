@@ -1,0 +1,79 @@
+body{
+	background:url('../images/back1.jpg');
+	color: #555;
+	font-family: sans-serif, serif;
+	font-size:16px;
+	line-height: 1.6em;
+	margin: 0;
+
+}
+.nav-container{
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+}
+
+#main-header{
+	background-color: transparent;
+	color: #fff;
+	margin-left: 1%;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+
+}
+#navbar li{
+	display: inline;
+	height: 150px;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right: 15px
+}
+#navbar a:hover{
+	background-color: coral;
+}
+table.table{
+	margin-left:10%;
+	width: 55%;
+	color: #06425C;
+	
+}
+tr:nth-child(odd){ 
+	background: #F2F2F2;
+}
+tr:nth-child(even){
+	background: #CDBB79;
+}
+tr:last-child{
+	border-radius: 0 0 25px 25px;
+}
+tr:last-child > td:first-child{
+	border-radius: 0 0 0 25px;
+}
+tr:last-child > td:last-child{
+	border-radius: 0 0 25px 0;
+}
+
+
+.table th, .table td{
+	margin: 5%;
+	padding-bottom: 2px;
+}
+th{
+	text-align: center;
+	background: #ffffff;
+}
+.table td{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+}
